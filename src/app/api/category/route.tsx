@@ -24,7 +24,7 @@ export async function GET(
       const resArr = sourceObj.rule(res);
       return { pageName: sourceObj.name, data:resArr};
     });
-    
+
     let resObj = {
       result: success,
       data: res

@@ -96,8 +96,9 @@ const dict_source = {
 
             if (match) {
               const id = match[1];
+              const name_ = name.match(/\[(.*?)\]《(.*?)》作者：(.*?)$/);
               return {
-                name: toTW(name),
+                name: toTW(name_ ? name_[2] : "未知作品"),
                 id
               }
             }
