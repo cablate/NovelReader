@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev -H 192.168.69.159 -p 5000",
+    "dev": "next dev -H 192.168.69.159 -p 3000",
     "build": "next build || true",
-    "start": "next start -H 192.168.69.159 -p 5000",
+    "start": "next start -H 192.168.69.159 -p 3000",
     "lint": "next lint"
   },
   "dependencies": {
@@ -31,7 +31,6 @@
     "react-dom": "18.2.0",
     "react-router-dom": "^6.16.0",
     "sass": "^1.69.5",
-    "swiper": "^11.0.5",
     "tailwindcss": "3.3.3",
     "typescript": "5.2.2"
   }

@@ -2,17 +2,13 @@
 
 import RecentDataRow from "@/components/RecentDataRow";
 import { IRecentData } from "@/utility/interface";
-import { SendCurrentPageName } from "@/utility/method";
 import { useEffect, useState } from "react";
-import { usePageNameProvider } from "../_Provider/PageNameProvider";
 
 export default function Recent() {
   const [recentData, setRecentData] = useState<Array<IRecentData>>([]);
-  const {setPageName} = usePageNameProvider();
   
 
   useEffect(() => {
-    setPageName('最近閱讀');
     const recent = localStorage.getItem("recent");
     const recentObj = recent ? JSON.parse(recent) : {};
     const data = [] as Array<IRecentData>;

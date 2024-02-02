@@ -1,5 +1,13 @@
 {
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/page": "app/page.js",
+  "/recent/page": "app/recent/page.js",
+  "/search/page": "app/search/page.js",
+  "/api/book/route": "app/api/book/route.js",
   "/api/bookIntro/route": "app/api/bookIntro/route.js",
   "/api/bookList/route": "app/api/bookList/route.js",
+  "/api/category/route": "app/api/category/route.js",
+  "/search/[sourceId]/page": "app/search/[sourceId]/page.js",
+  "/book/[sourceId]/[bookId]/page": "app/book/[sourceId]/[bookId]/page.js",
   "/search/[sourceId]/[categoryId]/page": "app/search/[sourceId]/[categoryId]/page.js"
 }
