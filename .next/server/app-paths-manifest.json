@@ -1,5 +1,0 @@
-{
-  "/api/bookIntro/route": "app/api/bookIntro/route.js",
-  "/api/bookList/route": "app/api/bookList/route.js",
-  "/search/[sourceId]/[categoryId]/page": "app/search/[sourceId]/[categoryId]/page.js"
-}
